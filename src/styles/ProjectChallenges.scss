@@ -1,0 +1,48 @@
+/* Section Problématiques et Compétences */
+.project-challenges-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 90px 0; /* Ajustez le padding en haut et en bas */
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.challenge-box, .skills-box {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    flex: 1;
+    background-color: #ffffff; /* Couleur de fond des boîtes */
+}
+
+.challenge-box h3, .skills-box h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.challenge-box p, .skills-box p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #777;
+}
+
+/* Responsivité pour tablettes et mobiles */
+@media (max-width: 1024px) {
+    .project-challenges-section {
+        flex-direction: row; /* Maintient les éléments côte à côte sur tablette */
+        max-width: 85%;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-challenges-section {
+        flex-direction: column; /* Passe les boîtes l'une sous l'autre sur mobile */
+        max-width: 80%;
+    }
+
+    .challenge-box, .skills-box {
+        margin-bottom: 20px; /* Ajoute de l'espace entre les boîtes */
+    }
+}

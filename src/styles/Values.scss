@@ -1,0 +1,52 @@
+.values-section {
+    padding: 40px 20px; /* Espacement autour de la section */
+    text-align: center; /* Centre le texte */
+    background-color: #f4f4f4; /* Couleur de fond */
+}
+
+.values-container {
+    display: flex;
+    justify-content: space-between; /* Espace entre les éléments */
+    margin-top: 20px; /* Espace au-dessus du conteneur */
+}
+
+
+.value-item {
+    flex: 1; /* Également répartir l'espace */
+    margin: 0 10px; /* Espacement horizontal entre les items */
+    padding: 20px; /* Espacement interne pour chaque item */
+    border-radius: 5px; /* Coins arrondis */
+}
+
+/* Marges entre chaque valeur */
+.value-item:not(:last-child) {
+    margin-bottom: 20px; /* Espace en bas de chaque item sauf le dernier */
+}
+
+.values-title {
+    font-size: 36px; /* Ajustez la taille si nécessaire */
+    margin-bottom: 30px; /* Espacement sous le titre principal */
+}
+
+.value-title {
+    font-size: 21px; /* Taille du titre pour chaque valeur */
+    font-weight: bold;
+    margin-bottom: 10px; /* Espacement sous le titre de la valeur */
+}
+
+.value-item p {
+    font-size: 14px;
+    color: #666; /* Couleur du texte */
+}
+
+/* Pour les écrans de taille mobile, changez la direction de flex */
+@media (max-width: 768px) {
+    .values-container {
+        flex-direction: column; /* Aligne les éléments en colonne */
+        align-items: center; /* Centre les éléments horizontalement */
+    }
+
+    .value-item:not(:last-child) {
+        margin-bottom: -20px; /* Espace en bas de chaque item sauf le dernier */
+    }
+}

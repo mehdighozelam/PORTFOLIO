@@ -1,0 +1,116 @@
+[
+    {
+        "id": 1,
+        "title": "PROJET - BOOKI",
+        "objective": "Création d'un site pour une agence de voyage.",
+        "technologies": "HTML & CSS",
+        "image": "images/booki.png",
+        "image-details": "/images/booki-mockup.png",
+        "project-objective": "Dans ce projet, j’ai créé la page d’accueil d’une agence de voyage en respectant les maquettes fournies sur Figma. J’ai intégré l’interface en utilisant uniquement HTML et CSS, tout en assurant que le site soit parfaitement responsive pour s’adapter à différents appareils (mobile, tablette, desktop). J’ai pris soin d’écrire mon propre code, ce qui m’a permis de renforcer ma compréhension de la structuration du HTML et du CSS. J’ai également versionné mon travail avec Git et GitHub, et configuré un environnement de développement front-end pour assurer une gestion efficace du projet.",
+        "project-tech-title": "Technologies utilisées :",
+        "buttons": {
+          "code": "https://github.com/mehdighozelam/BOOKI"
+        },
+        "challenges": {
+          "description": "L'un des défis principaux était d'assurer une responsivité parfaite sur les différentes tailles d’écran, en particulier sur mobile et tablette. J’ai dû réorganiser certains éléments du design pour garantir une bonne lisibilité et adaptabilité sans dénaturer l’interface d’origine."
+        },
+        "skills": {
+          "description": "Ce projet m’a permis de développer mes compétences en intégration web, notamment la gestion de la responsivité et l’utilisation de CSS pour créer des mises en page fluides et adaptatives."
+        }
+    },
+    {
+        "id": 2,
+        "title": "PROJET - SOPHIE BLUEL",
+        "objective": "Création d'un site pour une architecte d'intérieur.",
+        "technologies": "JavaScript",
+        "image": "images/sophie-bluel.png",
+        "image-details": "images/sophie-bluel-mockup.png",
+        "project-objective": "Dans ce projet, j’ai créé une page web dynamique pour une architecte d’intérieur en utilisant JavaScript et une API. J’ai développé la page de présentation des travaux à partir d’un HTML fourni, géré les événements utilisateurs et manipulé le DOM. J’ai aussi créé une page de connexion pour l’administrateur et une modale pour l’upload de nouveaux médias. Cela m’a permis d’améliorer mes compétences en JavaScript et d’apprendre à communiquer avec une API, des éléments clés pour le développement web moderne. J’ai utilisé Figma pour les maquettes, Visual Studio Code pour le développement et GitHub pour la version.",
+        "project-tech-title": "Technologies utilisées :",
+        "buttons": {
+          "code": "https://github.com/mehdighozelam/SOPHIE-BLUEL"
+        },
+        "challenges": {
+          "description": "L'un des défis majeurs dans ce projet était de gérer la communication entre le front-end et l'API de manière efficace et sécurisée. La manipulation du DOM et la gestion des événements utilisateurs ont également nécessité une réflexion approfondie pour assurer une expérience fluide et intuitive pour les utilisateurs."
+        },
+        "skills": {
+          "description": "Ce projet m’a permis de renforcer mes compétences en JavaScript, notamment dans la gestion des événements et la manipulation du DOM. De plus, j’ai appris à travailler avec des API et à gérer les interactions front-end/back-end, ainsi qu’à améliorer mes compétences en développement web dynamique."
+        }
+    },
+    {
+        "id": 3,
+        "title": "PROJET - NINA CARDUCCI",
+        "objective": "Déboguez et optimisez un site pour une photographe.",
+        "technologies": "Chrome DevTools",
+        "image": "images/nina-carducci.png",
+        "image-details": "images/nina-carducci-mockup.png",
+        "project-objective": "Dans ce projet, j’ai travaillé en tant que développeur freelance pour optimiser le référencement et l’accessibilité d’un site. J’ai utilisé des outils comme Lighthouse et Wave pour analyser les performances et identifier les problèmes de chargement et de SEO. Ensuite, j’ai proposé des recommandations et modifié le code du site pour améliorer la vitesse, la structure du code et le référencement. Enfin, j’ai créé un rapport avant/après, avec des captures d’écran des audits et des explications sur l’impact des changements. Ce projet m’a permis de renforcer mes compétences en SEO et en optimisation des performances web.",
+        "project-tech-title": "Technologies utilisées :",
+        "buttons": {
+          "code": "https://github.com/mehdighozelam/NINA-CARDUCCI"
+        },
+        "challenges": {
+          "description": "Le défi principal était d'améliorer les performances du site sans sacrifier l'accessibilité. Le site avait des problèmes de lenteur de chargement liés à des images non optimisées et à des éléments de code mal structurés, ce qui impactait son SEO. Le travail a consisté à réorganiser le code et à optimiser les médias tout en assurant un bon référencement."
+        },
+        "skills": {
+          "description": "Ce projet m'a permis d'améliorer mes compétences en SEO, en optimisation des performances web, ainsi qu'en analyse de l'accessibilité avec des outils comme Lighthouse et Wave. J'ai également renforcé mes compétences en gestion de projet et en rédaction de rapports techniques."
+        }
+    },
+    {
+        "id": 4,
+        "title": "PROJET - KASA",
+        "objective": "Création d'une application web de location immobilière.",
+        "technologies": "React - SASS",
+        "image": "images/kasa.png",
+        "image-details": "images/kasa-mockup.png",
+        "project-objective": "Dans ce projet, j’implémente le front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive. Je travaille sur la logique de présentation des données et les composants React, tout en configurant la navigation entre les pages avec React Router. Le projet se base sur des maquettes fournies et utilise des données simulées à partir d’un fichier JSON. J’ai commencé avec Create React App pour simplifier la configuration initiale et j’utilise Node.js pour exécuter du code en dehors du navigateur. Ce projet me permet de renforcer mes compétences en React, React Router, et d’implémenter des animations CSS pour améliorer l’interface utilisateur.",
+        "project-tech-title": "Technologies utilisées :",
+        "buttons": {
+          "code": "https://github.com/mehdighozelam/KASA"
+        },
+        "challenges": {
+          "description": "L'une des principales problématiques rencontrées a été de gérer la navigation entre les différentes pages de l'application avec React Router tout en maintenant une expérience fluide et réactive. Il a fallu également optimiser le rendu des composants React pour éviter les rechargements inutiles et améliorer la performance générale de l'application."
+        },
+        "skills": {
+          "description": "Ce projet m'a permis de renforcer mes compétences en React, notamment la gestion de la navigation avec React Router. J'ai également développé des compétences en optimisation des composants React pour améliorer les performances et en implémentation d'animations CSS pour une meilleure expérience utilisateur."
+        }
+    },
+    {
+        "id": 5,
+        "title": "PROJET - MON VIEUX GRIMOIRE",
+        "objective": "Développez le back-end d'un site de notation de livres.",
+        "technologies": "Node.js & MongoDB",
+        "image": "images/mon-vieux-grimoire.png",
+        "image-details": "/images/mon-vieux-grimoire-mockup.png",
+        "project-objective": "Dans ce projet, je développe le back-end d’un site de notation de livres en utilisant Express et MongoDB. Mon rôle est de créer un serveur, de gérer les opérations CRUD pour les livres et les notations, tout en assurant la sécurité des données. Je dois aussi mettre en place un système d’authentification sécurisé et gérer l’optimisation des images. J’utilise Mongoose pour modéliser les données et je respecte l’architecture MVC pour structurer l’application. Ce projet me permet d’acquérir des compétences cruciales en développement back-end, en sécurité des données et en création d’API RESTful.",
+        "project-tech-title": "Technologies utilisées :",
+        "buttons": {
+          "code": "https://example.com"
+        },
+        "challenges": {
+          "description": "Un des défis principaux était de gérer la sécurité des données, notamment en mettant en place un système d’authentification sécurisé et en protégeant les routes sensibles de l’application. J’ai aussi rencontré des défis lors de l'optimisation des images envoyées par les utilisateurs tout en assurant que les performances ne soient pas affectées."
+        },
+        "skills": {
+          "description": "Ce projet m'a permis de renforcer mes compétences en développement back-end, notamment en gestion des données avec MongoDB et la création d'API RESTful. J'ai également acquis une solide expérience dans l'implémentation de la sécurité, l'optimisation des fichiers multimédia et la gestion d’un serveur Express."
+        }
+    },
+    {
+        "id": 6,
+        "title": "PROJET - QWENTA",
+        "objective": "Planifiez le développement du site pour un client.",
+        "technologies": "JavaScript & API",
+        "image": "images/qwenta.png",
+        "image-details": "/images/qwenta.png",
+        "project-objective": "Dans ce projet, je planifie le développement d’un site web sans intervenir dans le codage. Mon rôle est de rédiger les spécifications techniques à partir des maquettes et des User Stories. Je mets en place une veille technologique pour suivre les tendances du secteur, et j’utilise un tableau Kanban sur Notion pour organiser le projet de manière structurée. Enfin, je prépare une présentation de la solution technique pour le Product Owner. Ce projet renforce mes compétences en gestion de projet et en planification, des aspects essentiels pour la réussite des projets web.",
+        "project-tech-title": "Technologies utilisées :",
+        "buttons": {
+          "code": "https://github.com/mehdighozelam/MON-VIEUX-GRIMOIRE"
+        },
+        "challenges": {
+          "description": "L'un des défis majeurs de ce projet était de gérer efficacement l'organisation des tâches et des priorités, en particulier avec les multiples intervenants et la coordination des User Stories. J'ai dû adapter mon approche pour assurer la synchronisation entre les différentes équipes tout en respectant les délais."
+        },
+        "skills": {
+          "description": "Ce projet m’a permis de renforcer mes compétences en gestion de projet, en organisation avec Kanban et en rédaction de spécifications techniques. J’ai également appris à mieux communiquer avec les parties prenantes et à assurer une planification stratégique pour des projets complexes."
+        }
+    }
+]

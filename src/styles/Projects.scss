@@ -1,0 +1,146 @@
+.projects-title {
+    font-size: 35px; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+    margin-top: 60px;
+}
+
+.projects-section {
+    padding: 20px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Afficher 2 projets par ligne */
+    gap: 20px;
+    padding: 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.project-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alignement à gauche */
+    padding: 20px;
+}
+
+.project-image {
+    width: 40%; /* Largeur de l'image */
+    border-radius: 10px;
+}
+
+.project-image img {
+    width: 100%; /* S'assurer que l'image prend toute la largeur */
+    border-radius: 10px; /* Coins arrondis */
+}
+
+.project-info {
+    width: 55%; /* Largeur des infos du projet */
+    padding-left: 30px; /* Espacement à gauche */
+    text-align: left; /* Alignement à gauche */
+}
+
+.project-info h3 {
+    margin-top: 0;
+    font-size: 21px;
+    color: #333;
+}
+
+.description {
+    color: #777;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.tech-info {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: #333;
+    font-weight: bold; /* Rend le texte en gras */
+}
+
+.button-site {
+    text-decoration: none;
+    background-color: #917e71;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button-site:hover {
+    background-color: #5b4f47;
+}
+
+/* Responsivité pour les tablettes */
+@media (max-width: 1024px) {
+    .project-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project-image {
+        width: 50%;
+    }
+
+    .project-info h3 {
+        font-size: 18px;
+    }
+
+    .tech-info {
+        margin-bottom: 30px;
+    }
+
+    .description {
+        font-size: 13px;
+    }
+}
+
+/* Responsivité pour les mobiles */
+@media (max-width: 768px) {
+    .project-container {
+        grid-template-columns: 1fr; /* Une colonne sur mobile */
+    }
+
+    .project-card {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .project-info {
+        margin-bottom: 20px;
+    }
+
+    .project-image {
+        width: 100%; /* Largeur de l'image sur mobile */
+        margin-bottom: 20px; /* Espace en bas */
+    }
+
+    .project-info {
+        width: 100%; /* Largeur de l'info sur mobile */
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .tech-info {
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+
+    .button-site {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}

@@ -1,0 +1,63 @@
+.skills-title {
+    font-size: 35px; /* Définit la taille de la police à 35px */
+    font-weight: bold; /* Met le texte en gras */
+    margin-bottom: 50px; /* Ajoute un espacement en bas si nécessaire */
+}
+
+.skills-section {
+    background-color: #917e71;
+    padding: 20px 0 60px;
+    color: white;
+    text-align: center;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 colonnes pour les 5 compétences */
+    gap: 50px; /* Espacement entre chaque compétence */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Sur Tablette (1024px à 1366px) */
+@media (max-width: 1024px) {
+    .skills-section {
+        padding: 20px 40px 60px; /* Modification pour tablette */
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr); /* Deux par deux sur mobile */
+    }
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill p {
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Barres de progression */
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 20px;
+    width: 100%;
+}
+
+.progress {
+    background-color: #ffffff;
+    height: 100%;
+    line-height: 20px;
+    text-align: center;
+    color: #917e71;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: width 0.5s ease-in-out;
+}
