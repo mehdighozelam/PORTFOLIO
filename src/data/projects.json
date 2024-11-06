@@ -85,7 +85,7 @@
         "project-objective": "Dans ce projet, je développe le back-end d’un site de notation de livres en utilisant Express et MongoDB. Mon rôle est de créer un serveur, de gérer les opérations CRUD pour les livres et les notations, tout en assurant la sécurité des données. Je dois aussi mettre en place un système d’authentification sécurisé et gérer l’optimisation des images. J’utilise Mongoose pour modéliser les données et je respecte l’architecture MVC pour structurer l’application. Ce projet me permet d’acquérir des compétences cruciales en développement back-end, en sécurité des données et en création d’API RESTful.",
         "project-tech-title": "Technologies utilisées :",
         "buttons": {
-          "code": "https://example.com"
+          "code": "https://github.com/mehdighozelam/MON-VIEUX-GRIMOIRE"
         },
         "challenges": {
           "description": "Un des défis principaux était de gérer la sécurité des données, notamment en mettant en place un système d’authentification sécurisé et en protégeant les routes sensibles de l’application. J’ai aussi rencontré des défis lors de l'optimisation des images envoyées par les utilisateurs tout en assurant que les performances ne soient pas affectées."
@@ -104,7 +104,7 @@
         "project-objective": "Dans ce projet, je planifie le développement d’un site web sans intervenir dans le codage. Mon rôle est de rédiger les spécifications techniques à partir des maquettes et des User Stories. Je mets en place une veille technologique pour suivre les tendances du secteur, et j’utilise un tableau Kanban sur Notion pour organiser le projet de manière structurée. Enfin, je prépare une présentation de la solution technique pour le Product Owner. Ce projet renforce mes compétences en gestion de projet et en planification, des aspects essentiels pour la réussite des projets web.",
         "project-tech-title": "Technologies utilisées :",
         "buttons": {
-          "code": "https://github.com/mehdighozelam/MON-VIEUX-GRIMOIRE"
+          "code": "https://github.com/mehdighozelam/MENU-MAKER-BY-QWENTA"
         },
         "challenges": {
           "description": "L'un des défis majeurs de ce projet était de gérer efficacement l'organisation des tâches et des priorités, en particulier avec les multiples intervenants et la coordination des User Stories. J'ai dû adapter mon approche pour assurer la synchronisation entre les différentes équipes tout en respectant les délais."

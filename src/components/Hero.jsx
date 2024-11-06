@@ -9,7 +9,7 @@ const Hero = () => {
         <h2 id="hero-title">Découvrez Mon Univers</h2>
         <h1>Bienvenue sur Mon Portfolio</h1>
         <p>
-          Je suis une développeur web passionné, spécialisér dans la création de sites modernes et optimisés. 
+          Je suis une développeur web passionné, spécialisé dans la création de sites modernes et optimisés. 
           Explorez mes projets et découvrez comment je peux vous accompagner dans vos idées numériques.
         </p>
         <a href="#about" className="btn-discover">En savoir plus</a>
